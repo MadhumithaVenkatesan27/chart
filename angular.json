@@ -27,7 +27,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/highcharts/highcharts.js",
+              "node_modules/highcharts/modules/accessibility.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -96,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c9cb2771-4df8-45fa-98f1-7c6cdb0dd5d8"
   }
 }
